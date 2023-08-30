@@ -1,0 +1,29 @@
+DROP DATABASE IF EXISTS MYDB;
+CREATE DATABASE MYDB;
+
+USE USE MYDB;
+
+CREATE TABLE Customers (
+	id INT NOT NULL AUTO_INCREMENT,
+    customerName VARCHAR(150) NOT NULL,
+    customerNumber VARCHAR(50) NOT NULL,
+    customerEmail VARCHAR(150) NOT NULL,
+    it VARCHAR(50) NOT NULL,
+    insertionDate DATE NOT NULL,
+    PRIMARY KEY (id)
+);
+
+
+CREATE TABLE Products (
+	id INT NOT NULL AUTO_INCREMENT,
+    barcode VARCHAR(25) NOT NULL,
+    productName LONGTEXT NOT NULL,
+    purchasePrice DOUBLE NOT NULL,
+    porcentage INT NOT NULL,
+    salePrice DOUBLE NOT NULL,
+    minimalPrice DOUBLE NOT NULL,
+    descriptionProduct LONGTEXT NOT NULL,
+    imageProduct MEDIUMBLOB NOT NULL,
+    insertionDate DATE NOT NULL,
+    PRIMARY KEY (id)
+);
