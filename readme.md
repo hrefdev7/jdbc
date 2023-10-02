@@ -3,7 +3,6 @@
   <br><br><br><br><br>
 <h3> Qu'est-ce que JDBC </h3>
 Dans la plupart des applications Java, il est toujours nécessaire d'interagir avec les bases de données pour récupérer, manipuler et traiter les données. À cette fin, Java JDBC a été introduit.
-
 JDBC est la forme courte couramment utilisée pour la connectivité de base de données Java. En utilisant JDBC, nous pouvons interagir avec différents types de bases de données relationnelles telles qu'Oracle, MySQL, MS Access, etc.
 
 Avant JDBC, l'API ODBC a été introduite pour se connecter et effectuer des opérations avec la base de données. ODBC utilise un pilote ODBC qui dépend de la plate-forme car il a été écrit en langage de programmation C. L'API JDBC est écrite en langage Java, est indépendante de la plate-forme et rend elle-même indépendante de la plate-forme Java.
